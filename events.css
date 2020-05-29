@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.body_hide {
+    opacity: 0;
+    transition: .9s opacity ease-in-out;
+}
+.body_visible {
+    opacity: 1;
+}
+.upfoot{
+
+    width:100%;
+    background: black;
+    display: flex;
+}
+.upfoot a{
+    flex:1;
+    margin: auto 0;
+    margin-left: -20px;
+    display: block;
+    height: 40px;
+    width: 200px;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #FFFED9;
+}
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+.d1 {
+    flex: 2;
+    background: #9050FF;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.d1 input {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  outline: none;
+  background: white;
+    border: 2px solid #9050FF;
+
+}
+.d1 button {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #9050FF;
+
+  cursor: pointer;
+}
+.d1 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+.wrap{
+    width:100%;
+    margin: auto;
+     background: #6264BC;
+}
+.navbar{
+    width: 70%;
+    margin-right: -50%;
+    display: flex;
+    height: 50px;
+}
+.navbar a{
+    height: 50px;
+    width: 30px;
+    display: block;
+    text-align: center;
+    flex:1;
+    color:white;
+    margin: auto;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    padding-top: 5px;
+}
+.navbar a:hover{
+    transition: all .3s;
+    background: #6C57A0;
+}
+
+
